@@ -1,0 +1,29 @@
+---
+layout: default
+title: kylewm.com
+---
+
+<h1>{{page.title}}</h1>
+
+  <div id="about">
+    <p>
+      I am a software engineer and project manager in the SF Bay Area
+      with 8+ years of professional experience. I have built and helped
+      build several fielded applications, mostly in the area of highly
+      constrained planning and scheduling. I work in Java and C++ but
+      have a hobbyist's interest in almost every language I've come
+      across.
+    </p>
+    <p>
+      I'm also occasionally very excited about bicycling, photography,
+      and vegetarian/vegan cooking.
+    </p>
+  </div>
+
+<h2>Articles</h2>
+
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>

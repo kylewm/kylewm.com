@@ -1,0 +1,9 @@
+name: kylewm.com
+description: Kyle's personal blog
+url: http://kylewm.com
+markdown: kramdown
+kramdown:
+  use_coderay: true
+  coderay:
+    coderay_line_numbers: nil
+    coderay_css: class
