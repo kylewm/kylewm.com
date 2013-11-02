@@ -1,12 +1,12 @@
 ---
-"categories" : "programming"
-"layout" : "post"
-"tags" : [ "java", "swing", "documentation"]
-"abstract" : "What to do when you can't bear the thought of writing the same GUI code for the nine thousandth time"
-"title" : "Represent common Swing behaviors as UIConditions"
-"date" : "2013-07-30"
+categories: programming
+layout: post
+tags: '["java", "swing", "documentation"]'
+abstract: What to do when you can't bear the thought of writing the same GUI code
+  for the nine thousandth time
+title: Represent common Swing behaviors as UIConditions
+date: '2013-07-30'
 ---
-
 I still do a lot of work with Java Swing (am I the only one?). When
 reviewing my own or someone else's additions, it's pretty easy to tell
 how much time and attention the person was willing to devote to any
