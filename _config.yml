@@ -1,5 +1,7 @@
 name: kylewm.com
 description: Kyle's personal blog
+source: ./
+destination: ./_site
 markdown: kramdown
 kramdown:
   use_coderay: true
