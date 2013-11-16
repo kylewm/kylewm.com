@@ -3,7 +3,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 
 body {
     color: #333;
-    font-size: 1.5em;
+    background-color: #eee;
     line-height: 1.75;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -20,31 +20,28 @@ body {
 }
 
 code, pre {
-    font-family: 'Droid Sans Mono', monospace;
-    font-size: 0.8em;
+    font-family: monospace;
     overflow: auto;
     white-space: pre;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Poiret One';
+    font-family: "Crimson Text",serif;
+}
+
+h1, h2 {
     line-height: 1.25;
-    text-align: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 0.75em;
+    margin-bottom: 0.25em;
 }
 
 a {
-    color: #09c;
+    color: #069;
     text-decoration: none;
 }
 
 a:hover {
-    color: #069;
-}
-
-h1 a, h2 a {
-    color: #333;
+    color: #09c;
 }
 
 #footer {
@@ -76,7 +73,7 @@ ol li {
 }
 
 ul li {
-    list-style-type: circle;
+    list-style-type: disc;
 }
 
 ul.posts li {

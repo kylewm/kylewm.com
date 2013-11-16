@@ -1,0 +1,16 @@
+---
+layout: page
+title: Development Notes
+---
+
+Thoughts, ideas, and some useful bits of code.
+
+<div class="posts">
+  {% for post in site.posts %}
+  <div class="post">
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <span>{{ post.date | date_to_long_string }}</span>
+  <p>{{ post.excerpt }}</p>
+  </div>
+  {% endfor %}
+</div>
