@@ -22,6 +22,7 @@
   <body>
     <div id="wrapper">
       <div id="content">
+        <a href="{{ site.url }}/">kylewm.com</a> ~ <a href="{{ site.url }}/blog">blog</a>
 
         {{ content }}
 
@@ -33,8 +34,6 @@
         <a href="http://microca.st/kylewm">pump.io</a> | 
         <a href="https://twitter.com/kyle_wm">twitter</a> | 
         <a href="http://www.flickr.com/photos/kindofblue115/">flickr</a> | 
-        <a href="https://www.facebook.com/kyle.mahan">facebook</a> | 
-        <a href="https://plus.google.com/117762887708957235787">google+</a> | 
         <a href="http://www.linkedin.com/pub/kyle-mahan/3/207/349">linkedin</a>
         <br/>
 
@@ -42,5 +41,23 @@
 
       </div> <!-- footer -->
     </div> <!-- wrapper -->
+
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+
+      (function() {
+      var u=(("https:" == document.location.protocol) ? "https" : "http") + "://kylewm.com/piwik/";
+      _paq.push(["setTrackerUrl", u+"piwik.php"]);
+      _paq.push(["setSiteId", "1"]);
+      var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+      g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Piwik Code -->
+
   </body>
 </html> 

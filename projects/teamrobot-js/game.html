@@ -1,12 +1,14 @@
+<!DOCTYPE html>
 
+    <script type="text/javascript" src="tr.js"></script>
     <script>
       function changeLevel() {
         var levelList = document.getElementById("levelList");
-        loadLevel('level' + levelList.value);
+        loadLevel(levelList.value);
       }
     </script>
 
-    <canvas width="700" height="620" id="game"></canvas>
+    <canvas width="750" height="620" id="game"></canvas>
     <form>
        Level:
        <select id="levelList" onchange="changeLevel();"> 
@@ -42,4 +44,4 @@
          <option>30</option>
        </select>
     </form>
-    <script type="text/javascript" src="tr.js"></script>
+

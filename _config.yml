@@ -2,6 +2,7 @@ name: kylewm.com
 description: Kyle's personal blog
 source: ./
 destination: ./_site
+permalink: /blog/:categories/:year/:month/:day/:title/
 markdown: kramdown
 kramdown:
   use_coderay: true

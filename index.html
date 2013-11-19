@@ -6,31 +6,34 @@ title: Kyle Mahan
 <h1>{{page.title}}</h1>
 
 <p>
-I'm a software developer in the SF Bay Area with an interest in
+A software developer in the SF Bay Area with an interest in
 programming languages, artificial intelligence, and graphics.
 </p>
 
-<h2>Latest Blog Entry</h2>
+
+<h2>Most Recent Post</h2>
 
 {% for post in site.posts limit:1 %}
-<h3><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
-<span>{{ post.date | date_to_long_string }}</span>
-{{ post.excerpt }}
+  <h3><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
+  <span>{{ post.date | date_to_long_string }}</span>
+  {{ post.excerpt }}
 {% endfor %}
 
-<a href="{{site.url}}blog.html">More posts</a>
 
 <h2>Projects</h2>
 Random and sporadic side-projects:
 <ul>
   <li><a href="{{site.url}}/projects/cl-raytracer">Common Lisp Raytracer:</a> 
-    short and simple sphere-only raytracer (mostly an excuse to re-learn CL)</li>
+    short and simple sphere-only raytracer (mostly an excuse to re-learn
+    CL)</li>
   <li><a href="{{site.url}}/projects/teamrobot-js">Team Robot 2013:</a> 
-    a (sadly unfinished) JavaScript reimplementation of my team's 2005 IGF Student Showcase submission</li>
+    a (sadly unfinished) JavaScript reimplementation of my team's 2005
+    IGF Student Showcase submission</li>
 </ul>
 
-<h2>Older stuff</h2>
 
+
+<h2>Older stuff</h2>
 <ul>
   <li><a href="http://hardly-starving.blogspot.com/">Hardly Starving:</a> my all-but-defunct vegetarian cooking blog</li>
 </ul>
