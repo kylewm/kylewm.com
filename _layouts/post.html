@@ -2,9 +2,11 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_long_string }}</p>
+<div class="h-entry">
+  <h1 class="p-name">{{ page.title }}</h1>
+  <p class="meta dt-published"><a class="u-url" href="{{ post.url }}">{{ page.date | date_to_long_string }}</a></p>
 
-<div class="post">
-{{ content }}
+  <div class="post e-content">
+    {{ content }}
+  </div>
 </div>
